@@ -18,7 +18,7 @@ const quote = () => {
             output.push(Message[m][random(Message[m].length)]);
             output.push(["--"]);
         }else if(m==='complement'){
-            output.push(["and don't forget..."]);
+            output.push(["and don't forget doing:"]);
             output.push(Message[m][random(Message[m].length)]);
         }              
     }
